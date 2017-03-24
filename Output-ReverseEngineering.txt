@@ -1,0 +1,25 @@
+﻿04-02-2016 10:46:35 AM: Reverse Engineering Started.
+04-02-2016 10:46:54 AM: (24) type(s) fully reverse engineered.
+04-02-2016 10:46:54 AM: (23) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements.
+04-02-2016 10:46:54 AM: The reverse engineering operation completed with (0) error(s), and (0) warning(s).
+04-02-2016 10:46:54 AM: For more details, see the following log file: 'file:///F:/project/Homedecor/test/ModelingProject3/ReverseEngineering.Log.xml'.
+04-02-2016 10:47:29 AM: Reverse Engineering Started.
+04-02-2016 10:47:56 AM: (9) type(s) fully reverse engineered.
+04-02-2016 10:47:56 AM: (46) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements.
+04-02-2016 10:47:56 AM: The reverse engineering operation completed with (0) error(s), and (0) warning(s).
+04-02-2016 10:47:56 AM: For more details, see the following log file: 'file:///F:/project/Homedecor/test/ModelingProject3/ReverseEngineering.Log.xml'.
+04-02-2016 10:48:38 AM: Reverse Engineering Started.
+04-02-2016 10:48:42 AM: (1) type(s) fully reverse engineered.
+04-02-2016 10:48:42 AM: (12) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements.
+04-02-2016 10:48:42 AM: The reverse engineering operation completed with (0) error(s), and (0) warning(s).
+04-02-2016 10:48:42 AM: For more details, see the following log file: 'file:///F:/project/Homedecor/test/ModelingProject3/ReverseEngineering.Log.xml'.
+04-02-2016 10:48:56 AM: Reverse Engineering Started.
+04-02-2016 10:48:58 AM: (1) type(s) fully reverse engineered.
+04-02-2016 10:48:58 AM: (7) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements.
+04-02-2016 10:48:58 AM: The reverse engineering operation completed with (0) error(s), and (0) warning(s).
+04-02-2016 10:48:58 AM: For more details, see the following log file: 'file:///F:/project/Homedecor/test/ModelingProject3/ReverseEngineering.Log.xml'.
+04-02-2016 10:49:23 AM: Reverse Engineering Started.
+04-02-2016 10:49:29 AM: (7) type(s) fully reverse engineered.
+04-02-2016 10:49:29 AM: (12) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements.
+04-02-2016 10:49:29 AM: The reverse engineering operation completed with (0) error(s), and (0) warning(s).
+04-02-2016 10:49:29 AM: For more details, see the following log file: 'file:///F:/project/Homedecor/test/ModelingProject3/ReverseEngineering.Log.xml'.

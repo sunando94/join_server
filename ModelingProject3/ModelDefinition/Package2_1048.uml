@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8e3cbc18-b073-4800-8f5c-56b435feb6ff"
+  name="Results"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="34a4e4e4-76e2-4341-aa8d-cdc076aa3751"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dtest.Results"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a8909de2-cbab-45e6-8df2-391850168f10"
+        name="ChallengeResult"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8b12027b-5cb8-443c-8c3f-2a9079587b5f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Results Type%3DChallengeResult"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="faf6497b-3247-4243-9461-bca28ddb6ec5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="928a4d2a-af58-4ce4-820b-f3cd2a9d48c5">
+                <propertyInstance
+                  Id="78f28817-32b9-4ca1-aea1-97e479eef2dc"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61f86f64-3aea-4468-903c-af391370c19b">
+                <propertyInstance
+                  Id="a1fab408-23f1-408c-9839-e284b5d087dd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="713cbd33-aac3-4a0c-9f02-bb18d4dd58a7">
+                <propertyInstance
+                  Id="5e0df3d6-0aea-42f4-bc78-ef06a0588c6b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9cbcec7a-756e-4c3e-91be-342ef7fa209d">
+                <propertyInstance
+                  Id="706c1b37-1136-4446-9ec6-ad6fdaca689f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce9fe8eb-0775-4aaa-86f5-910adf1172de">
+                <propertyInstance
+                  Id="93282fdf-f594-494c-8e38-e347c1571165"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="e7d15841-b031-4bfd-a8e1-3852350cea97">
+            <interfaceMoniker
+              Id="0bfab01a-488c-4ba3-bf10-daf6b1e34a62"
+              LastKnownName="IHttpActionResult"
+              LastKnownLocation="Package5_1047.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="a0d5f415-ede2-49d3-b948-f6f84b4a7bce"
+            isDerived="false"
+            sourceEndRoleName="ChallengeResult"
+            targetEndRoleName="Request"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d0d56ae8-26d3-4dac-98a6-a698d45feaf6"
+              LastKnownName="HttpRequestMessage"
+              LastKnownLocation="Package4_1048.uml" />
+            <description>Property Request references type HttpRequestMessage.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eff60ba4-b4eb-4334-90b2-07ab0065a011"
+                  name="ChallengeResult"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f1cf2f37-1290-4def-8d64-72185a467c9f"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7d79dd02-6698-4bc9-917c-0e20f487d3a0"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="283b2c9a-6c46-483d-b225-0970f1195e27"
+                  name="Request"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d6b097f3-dc05-48a2-b9dd-788f5f71710f"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fa8807be-cff3-4b85-84a2-0a4a9066ca6b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="2059ead1-602b-4b01-9988-67ef37e3c167"
+            name="LoginProvider"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a89d14ee-a201-4074-9328-07855f7864ed"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Results Type%3DChallengeResult Member%3DLoginProvider"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="934751b8-308c-4bcb-bdb2-b2c58f2d59a4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2aec1f1f-8d7b-4bde-baa6-163ecbbee746">
+                    <propertyInstance
+                      Id="f40c0dae-ffd2-415f-9257-b6409e0d74b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b056845b-10a4-4f38-83d3-129547d57322">
+                    <propertyInstance
+                      Id="b6204796-c65b-4731-a712-92ae1438c743"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="933712b9-d244-4d71-bd06-d8d1a9b87fd0">
+                    <propertyInstance
+                      Id="60d8620c-73bb-47ec-a8ff-c41eda753907"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31139c2a-faee-44e3-91ef-48b0e255403f">
+                    <propertyInstance
+                      Id="4d1911dc-aef1-4687-8136-f3a91585a0cf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06fcf9f7-4705-4d8c-8933-b3f31a742032">
+                    <propertyInstance
+                      Id="7cc72298-7f00-4ecf-878e-a9015b560653"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cfd79098-8dd7-40cc-8c50-6a4d0423a573">
+                    <propertyInstance
+                      Id="5eee44d1-5b35-437c-aaa1-6f5dc3a7b738"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41a3e6f1-31db-4d4c-a20c-cb09bd07fb7e">
+                    <propertyInstance
+                      Id="70e8e0ae-5432-436c-bb6c-903d5032edaf"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject3.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="661ffb74-2a2a-46d5-9fdc-ad2f3daa9982"
+            name="Request"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e2416b14-2315-448d-ab0d-479a26f1530a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Results Type%3DChallengeResult Member%3DRequest"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="06d3a166-7ded-43ea-8bd4-eee57e1a7390"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5af7d52-8e90-4a71-ba45-828b8bdc423a">
+                    <propertyInstance
+                      Id="b7c22266-9806-4387-9248-0e99d5e56065"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac639de9-6735-4077-ae57-e6a793f06344">
+                    <propertyInstance
+                      Id="b1a98571-387c-4c9b-85ea-4ce01259574a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e73c774c-d062-468a-82cd-8da3caf674f4">
+                    <propertyInstance
+                      Id="ef8daa27-3be5-4ec6-bf20-655de85a550a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d4e99c9-e1ba-4eeb-bf44-c9df36ec8d1c">
+                    <propertyInstance
+                      Id="618cb81d-7f38-4720-a83e-f5a04156bbb4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3844486e-dd66-4f06-900d-644133a1473e">
+                    <propertyInstance
+                      Id="7264c927-a277-4113-a615-1fd17a188a52"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e580b35-3bf6-4f37-93a8-0bccb34c1c57">
+                    <propertyInstance
+                      Id="3c623b86-38d9-4aba-940f-938a37194a68"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc8e0060-a5b9-4d2e-bd0a-70afe92bcea8">
+                    <propertyInstance
+                      Id="9c65d75f-40d6-457f-94c0-14d8acdacbe5"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d0d56ae8-26d3-4dac-98a6-a698d45feaf6"
+                LastKnownName="HttpRequestMessage"
+                LastKnownLocation="Package4_1048.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b164a694-5b0f-4cd2-af19-022db89a981a"
+            name="ChallengeResult"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="49e4685a-9a55-4117-b963-5f835432e934"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Results Type%3DChallengeResult Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.5.0.0%2Flib%2Fnet45%2FSystem.Web.Http.dll Namespace%3DSystem.Web.Http Type%3DApiController)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="50f4f2b4-e371-4f2c-9d65-35eeb0c0f075"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3d305d1-2494-4140-a423-88026f6159f9">
+                    <propertyInstance
+                      Id="1288bd8a-d4e4-4822-a555-f69a40c74556"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e061d19-5664-4be2-90d3-252f882e15ed">
+                    <propertyInstance
+                      Id="910061de-3f90-4cc5-8263-4e18e7824a57"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc3a8624-e883-4512-a24f-e4252f15af59">
+                    <propertyInstance
+                      Id="c78f47cd-4767-4d0f-ac5c-0594c60c5168"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b18d8709-a717-4a35-adb0-ca8700416811">
+                    <propertyInstance
+                      Id="91dec9bf-373d-48e3-810e-ec21671bcd5b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="086c9a65-22e4-498b-b071-dd8273fb0351">
+                    <propertyInstance
+                      Id="e751c1a9-92b2-4b8d-ab05-a024c67428c0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f86e374-dcd9-408d-9d2e-4edafb11e628">
+                    <propertyInstance
+                      Id="bc93d818-cebe-4c02-ae2e-caf4b17c7146"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="756b0348-e364-45aa-a291-f7590d2aa758"
+                  name="loginProvider"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="59695e5f-1906-4aa9-857b-63a4542b08de"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Results Type%3DChallengeResult Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.5.0.0%2Flib%2Fnet45%2FSystem.Web.Http.dll Namespace%3DSystem.Web.Http Type%3DApiController)]) ParameterIdentifier%3DloginProvider"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject3.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="16dbd59f-2969-4ec8-883c-33607d8946a8"
+                  name="controller"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ee311fc3-7679-4759-ad29-e0eccbfbfd22"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Results Type%3DChallengeResult Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.5.0.0%2Flib%2Fnet45%2FSystem.Web.Http.dll Namespace%3DSystem.Web.Http Type%3DApiController)]) ParameterIdentifier%3Dcontroller"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="67b093f7-5982-45b1-8580-757223f4121a"
+                      LastKnownName="ApiController"
+                      LastKnownLocation="Package5_1047.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="55db884c-da84-4d29-98e1-5e705e73c64f"
+            name="ExecuteAsync"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c81720f9-3bc7-45ab-a342-e67093403862"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Results Type%3DChallengeResult Member%3D(Name%3DExecuteAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Threading Type%3DCancellationToken)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5cdfcf9a-8989-489e-af6b-625c76b67e56"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0808c650-82e1-4636-b199-bdb1c18e7a46">
+                    <propertyInstance
+                      Id="28a45efb-34a4-4eed-9617-db81cfb8114e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0fec641-7b5e-4e35-83ae-020012aa3d8a">
+                    <propertyInstance
+                      Id="96a7ccb0-76b3-4aea-a686-cc649b7bfc41"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="375603dd-eb9e-402f-ab05-13f4db2c8a91">
+                    <propertyInstance
+                      Id="8d3fd0ff-c36c-49d4-8186-3ebba67846ef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0e274de-1013-4713-82ce-7e8808223827">
+                    <propertyInstance
+                      Id="7de2928c-dc6f-4690-b7d5-ae7e93d5000f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79691ff6-afd2-4c01-869b-9e59c45367da">
+                    <propertyInstance
+                      Id="1f63f0ff-b0c1-425f-b7ae-62445e0debda"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="090b7b35-97d3-4023-89db-908a17ec2759">
+                    <propertyInstance
+                      Id="d7f0e18a-c22d-41ca-a514-c492c18533f0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="558c7470-b7f9-4df5-809a-7af26e3a9b0e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9cb32163-e49c-439c-bd68-86750048a406"
+                      LastKnownName="Task&lt;HttpResponseMessage‎&gt;"
+                      LastKnownLocation="Package4_1047.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ab1f28e9-8834-4c7b-a9fe-7f8eab2307ae"
+                  name="cancellationToken"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d2e7a244-ac8f-4e47-b0de-db24d14abdb6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Results Type%3DChallengeResult Member%3D(Name%3DExecuteAsync OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Threading Type%3DCancellationToken)]) ParameterIdentifier%3DcancellationToken"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7c45e669-80fd-48e7-bffe-62248a355dba"
+                      LastKnownName="CancellationToken"
+                      LastKnownLocation="Package3_1047.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

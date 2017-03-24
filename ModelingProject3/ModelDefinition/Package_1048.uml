@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4ee87171-87a5-45c0-b623-38f2a2d79b47"
+  name="Providers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="6d1f7b11-f598-4c30-9c81-e1eab893d795"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dtest.Providers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="72fa8c40-9d7c-4fc9-845d-d40d73144a4c"
+        name="ApplicationOAuthProvider"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="13f10c7c-cdfa-4bec-96f9-27cf0e70e4c9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9ec340c2-a6fe-4128-ba99-8720f9cdfd57"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7b88d29c-51be-4d04-b0f3-5ef0f07e48cf">
+                <propertyInstance
+                  Id="07c11669-cc13-43c9-9c83-afac163929e1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08efe2ef-b4c9-4f81-bbe7-2fdc5d464c3a">
+                <propertyInstance
+                  Id="d21d64e9-dae2-4f01-8894-02c66e6b0c7d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="057360b0-efbc-468d-8850-68de8a6ceb46">
+                <propertyInstance
+                  Id="1c2c42c6-c3bd-4959-b33d-3b70b734c788"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d0227f50-dce1-477f-a8c6-167ee8568148">
+                <propertyInstance
+                  Id="8062ccb4-97e6-43a5-9e4a-04f602dcf203"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2d563ba2-8d01-44d7-a154-75700f9b70eb">
+                <propertyInstance
+                  Id="342096ec-7859-4fea-beff-a02b3f04cf06"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="b3802f7b-9f65-4082-9537-38f62334038a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="c7e595ee-3e4b-4f2e-921f-3947b9d84fca"
+              LastKnownName="OAuthAuthorizationServerProvider"
+              LastKnownLocation="Package1_1048.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="070de62b-5c85-4369-a6a2-f556bcd749d6"
+            name="_publicClientId"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ffd7aa87-36b7-4671-b456-f27de5486101"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D_publicClientId"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a7ba62cc-2fbc-4d8f-a45a-59307758e21b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ab9a1fd-0d7e-487d-a4da-9b09eccc4e20">
+                    <propertyInstance
+                      Id="324319e5-2e33-467e-a4f4-a1bd5d8fcea0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fff2ff7-579a-4eac-92d0-a15165956e62">
+                    <propertyInstance
+                      Id="283351e8-d97c-4b73-b8ca-efe7a07bed89"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07d7d5ba-6342-4f4a-b4d4-49b10f5939c6">
+                    <propertyInstance
+                      Id="b15cead0-7af5-419b-8812-ad7902983cd3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="377075f8-23e1-4acf-a95a-7e2b939c90b9">
+                    <propertyInstance
+                      Id="2fc7246e-6572-4c5d-a686-feb1e53d64d5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="094e363f-5057-46dd-a47b-3d67f4c28280">
+                    <propertyInstance
+                      Id="42373cd8-1e7a-42f0-9e2f-79d7b689f197"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject3.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="25132b85-960f-4b21-9815-2a70f8530625"
+            name="_userManagerFactory"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="87b446f5-1b30-4eef-902d-404048d0420c"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D_userManagerFactory"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ba228aa9-f7e7-46d0-a23a-57e6cc85fca0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88ce334e-6ba5-4b20-b699-2242b89c1d6a">
+                    <propertyInstance
+                      Id="3b810510-ca88-4c3d-bc52-d36e10df6327"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45152f4f-c943-4ac6-a84f-a672c46ff10f">
+                    <propertyInstance
+                      Id="013efc9a-f5a3-4f06-b3c9-8da09d1e1194"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a58fc749-83c1-40a6-9d4e-fbcc07f933a7">
+                    <propertyInstance
+                      Id="05665472-6de1-4f72-bf38-9fb29e9ae50e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce52fc15-b278-4861-b338-e15f8a4b7d98">
+                    <propertyInstance
+                      Id="8e49dc25-e0e8-4267-9987-87e28d3f8990"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f172ccf9-4e88-4aab-aada-cef2bbae825e">
+                    <propertyInstance
+                      Id="b42da7b9-d4d6-42fd-aa76-b06e31be4c81"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="8ff3b872-e77c-4ffb-9243-253e7ed561f1"
+                LastKnownName="Func&lt;UserManager‎&lt;IdentityUser‎&gt;‎&gt;"
+                LastKnownLocation="Package2_1046.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ebc5b09c-65d1-457d-8289-9d5ad7e1e01a"
+            name="ApplicationOAuthProvider"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="be61b69a-194f-459a-b0bf-a427f56a2067"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.Identity.Core.1.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Core.dll Namespace%3DMicrosoft.AspNet.Identity Type%3D(Name%3DUserManager GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.Identity.EntityFramework.1.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.EntityFramework.dll Namespace%3DMicrosoft.AspNet.Identity.EntityFramework Type%3DIdentityUser)]))]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="935f5415-b86c-4b72-9e13-0d7cdf505954"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b287f980-414c-4cee-ab0d-b2e20c91c463">
+                    <propertyInstance
+                      Id="c08b3115-bb15-4461-9139-3d8942f7d2d9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="806fb4d9-e51d-48bc-952c-e522739c9173">
+                    <propertyInstance
+                      Id="db67fd27-2088-4820-a29a-580a2881680d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f67b5121-fe9b-4490-9b9f-250b78b7ff8a">
+                    <propertyInstance
+                      Id="c1cc51f2-8de5-4f80-b064-2b630ef6857b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="320df3f9-d030-4d87-bf68-26eada450e93">
+                    <propertyInstance
+                      Id="68ead286-7c32-4938-a88c-1a890b0cfaf9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a95498e2-227d-49a7-bad6-53b6689ac6e9">
+                    <propertyInstance
+                      Id="3c2ece81-0c66-46c4-9ada-1b2eaed1cae6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e445ada3-8faf-4295-9ed4-1b4accef2114">
+                    <propertyInstance
+                      Id="62af7a4a-f0aa-49b7-af79-91d8c47819a9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5212914f-cb1f-4864-b1ba-9a4abfec484f"
+                  name="publicClientId"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9d0300f8-2523-4137-89e9-9654f34b0328"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.Identity.Core.1.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Core.dll Namespace%3DMicrosoft.AspNet.Identity Type%3D(Name%3DUserManager GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.Identity.EntityFramework.1.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.EntityFramework.dll Namespace%3DMicrosoft.AspNet.Identity.EntityFramework Type%3DIdentityUser)]))]))]) ParameterIdentifier%3DpublicClientId"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject3.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="effc1c97-d0d5-4872-acfe-5869713792a2"
+                  name="userManagerFactory"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="84cf85e9-a027-46f6-8cf9-3f39d93a86dc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DFunc GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.Identity.Core.1.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.Core.dll Namespace%3DMicrosoft.AspNet.Identity Type%3D(Name%3DUserManager GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.AspNet.Identity.EntityFramework.1.0.0%2Flib%2Fnet45%2FMicrosoft.AspNet.Identity.EntityFramework.dll Namespace%3DMicrosoft.AspNet.Identity.EntityFramework Type%3DIdentityUser)]))]))]) ParameterIdentifier%3DuserManagerFactory"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="8ff3b872-e77c-4ffb-9243-253e7ed561f1"
+                      LastKnownName="Func&lt;UserManager‎&lt;IdentityUser‎&gt;‎&gt;"
+                      LastKnownLocation="Package2_1046.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6ca94e5c-4c54-4e99-b951-c87c9d885bf9"
+            name="GrantResourceOwnerCredentials"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fc8b6eec-9dd7-4590-a926-9f1af197bf44"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DGrantResourceOwnerCredentials OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.Owin.Security.OAuth.2.0.0%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthGrantResourceOwnerCredentialsContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6a568724-8638-4827-a8d6-48a83c6defc0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dddc7b05-ae80-4caa-bd46-84e771bf4744">
+                    <propertyInstance
+                      Id="c998c280-1f23-4e15-b293-15f893739a9b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="280f61ab-c139-45f9-acd0-3b411e6be79d">
+                    <propertyInstance
+                      Id="e0463484-5360-4664-bf79-1c365a6f6274"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58b052b4-958e-4863-942e-ae4a8074a230">
+                    <propertyInstance
+                      Id="1912e7bd-d069-438f-b181-a9dfc45a49b1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="408468d5-5996-4de1-98b9-ee454586a55b">
+                    <propertyInstance
+                      Id="c0992101-9f40-4ce3-adf2-c700e05acf6e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c63e942-2e03-4120-9d05-c67ae1b60797">
+                    <propertyInstance
+                      Id="5ce19a5e-31f5-48df-a151-5df9bac6e4c8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="862cd81e-15a0-4ab7-a858-62ac4c9d901a">
+                    <propertyInstance
+                      Id="a6331b53-9f34-41d6-8939-1f3207d8806f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2a12acc3-3cd1-428a-a6d4-2e28516c1c5d"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3fd22789-1132-4233-9d33-899129ff7b15"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package4_1047.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4e979cc8-10c4-47c7-b90a-06e0eff5550f"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d30a7aa2-15fa-41e8-aa20-5d4239633bbd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DGrantResourceOwnerCredentials OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.Owin.Security.OAuth.2.0.0%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthGrantResourceOwnerCredentialsContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f87960fc-e476-4463-9643-068490b19c4e"
+                      LastKnownName="OAuthGrantResourceOwnerCredentialsContext"
+                      LastKnownLocation="Package1_1048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2e14c875-8d1c-42ea-bf65-24da86e6e3e6"
+            name="TokenEndpoint"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d158d8ac-277e-435a-982d-06ba3a3b6c54"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DTokenEndpoint OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.Owin.Security.OAuth.2.0.0%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthTokenEndpointContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c895b9b9-9aaf-453d-9239-5c61da2a9a66"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3368ae06-ac37-481b-a570-6e823506f239">
+                    <propertyInstance
+                      Id="e6f6a53e-5023-4a24-8e8c-c93efa7614cb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3f56d1d-fc5f-4e0b-8d52-1f881438e282">
+                    <propertyInstance
+                      Id="572c1843-f290-46e7-8a3b-75c529efd008"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62ce5d8e-4552-4140-ba35-0373343f5c04">
+                    <propertyInstance
+                      Id="606674f5-4aaf-429d-af64-4f59e95dc54a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc783a0c-786e-43cd-8292-6d021671b953">
+                    <propertyInstance
+                      Id="0798d304-35fa-4b28-8a5f-0b0cb39ec713"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5c59ae9-439d-46f8-b09e-da2e8e6249cc">
+                    <propertyInstance
+                      Id="19fec3d3-3252-45c2-ac39-9dade0b1e972"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e513a48-c8e9-4652-ae9d-b757b7983433">
+                    <propertyInstance
+                      Id="057fc7b5-b993-4ca2-b2c2-aa2bbea187ab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3904e63e-c077-4d63-9da6-750591a7663f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3fd22789-1132-4233-9d33-899129ff7b15"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package4_1047.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e78adc05-5901-4c82-9658-bb7652d8a306"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="377f4797-f49f-4305-a300-1e83d5e29c9c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DTokenEndpoint OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.Owin.Security.OAuth.2.0.0%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthTokenEndpointContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7fca65f6-15b2-460a-9cb9-45a45294226f"
+                      LastKnownName="OAuthTokenEndpointContext"
+                      LastKnownLocation="Package1_1048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e1246ca4-6106-4e04-b216-468868719a55"
+            name="ValidateClientAuthentication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d6a1e2e5-815a-4a85-b702-d27de06ae319"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DValidateClientAuthentication OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.Owin.Security.OAuth.2.0.0%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientAuthenticationContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a991e022-bab2-4e1b-a65f-d0c8c0b2b671"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29ab05b3-2cd4-4657-bace-b79ac5ddee6b">
+                    <propertyInstance
+                      Id="35d9e526-2f95-45a5-ba92-1e51e6e8fa5f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f79467a5-19b9-4c8d-bcff-f9d41a572559">
+                    <propertyInstance
+                      Id="06c8fac2-950c-4603-a6d3-c4f326e6c999"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccaef19d-83f6-4984-a816-965aef417ddd">
+                    <propertyInstance
+                      Id="64478a67-b3ad-403c-8c4e-2c2335ffea56"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14273d46-680a-4ff4-8853-9eb03111ac7b">
+                    <propertyInstance
+                      Id="cb136ef0-9c8a-4cbd-9e7f-dc0caac75d6c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="152155ce-9cf9-4056-bbf0-2d854de336bb">
+                    <propertyInstance
+                      Id="46823b8f-651f-4ea0-9188-797ef5c28f6c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b4d649a-ad1e-4910-9ac8-5fb63f2bf3b5">
+                    <propertyInstance
+                      Id="bfd361c5-ce06-4ce4-bcd8-d5c591eb3959"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="91f35a1d-9a03-4d23-ab06-903cc4de0348"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3fd22789-1132-4233-9d33-899129ff7b15"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package4_1047.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d802d3b2-193a-4135-b030-3f694c7f42bb"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8af2b90e-6ead-414a-9a46-0a6860fa64e5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DValidateClientAuthentication OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.Owin.Security.OAuth.2.0.0%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientAuthenticationContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="31a44503-356d-4480-97d4-e4395a368e07"
+                      LastKnownName="OAuthValidateClientAuthenticationContext"
+                      LastKnownLocation="Package1_1048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5af9c44e-b577-4df0-9589-e1aa63100eb1"
+            name="ValidateClientRedirectUri"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1364c9e2-93f2-4469-a369-9afd28faf7d3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DValidateClientRedirectUri OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.Owin.Security.OAuth.2.0.0%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientRedirectUriContext)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="baf3c1eb-4f71-4336-afd7-aa86e028fed0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3f90f23-994a-4cd3-8087-8cccf92f1c65">
+                    <propertyInstance
+                      Id="ec64476e-c869-41ab-b48d-c3e2d4a3db91"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e852cd2-7338-44f1-8e9a-42aa8ab61f69">
+                    <propertyInstance
+                      Id="4e8a9ed7-4461-4550-9234-321049c84979"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00b5396c-aae4-461f-9cbf-07db37cf9aed">
+                    <propertyInstance
+                      Id="2ebc97e3-18fe-4408-9de9-135f93dc7a78"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aeedbdb4-b3bf-42dd-a2b5-29f508626275">
+                    <propertyInstance
+                      Id="7cac5e9f-77a4-4fe9-92cc-5a2c6d6a18b9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93e1b511-2752-4889-98bb-a93e004b5f32">
+                    <propertyInstance
+                      Id="f8f4adcb-cbd5-4b14-9025-fb0c52d9cd58"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="becb650f-93ba-4162-bcbe-8a86e427739b">
+                    <propertyInstance
+                      Id="a340fe45-9e58-4184-b7ba-66855af65fed"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4781dd46-66a9-428c-ab30-182a8961dd78"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3fd22789-1132-4233-9d33-899129ff7b15"
+                      LastKnownName="Task"
+                      LastKnownLocation="Package4_1047.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e1bc2414-6f7c-4aa4-a983-839a21942e47"
+                  name="context"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5858adf1-a1e5-45df-99db-15e08e5a7450"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DValidateClientRedirectUri OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Fpackages%2FMicrosoft.Owin.Security.OAuth.2.0.0%2Flib%2Fnet45%2FMicrosoft.Owin.Security.OAuth.dll Namespace%3DMicrosoft.Owin.Security.OAuth Type%3DOAuthValidateClientRedirectUriContext)]) ParameterIdentifier%3Dcontext"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f5ea5023-52f1-4faf-99e8-18e071ee2f3e"
+                      LastKnownName="OAuthValidateClientRedirectUriContext"
+                      LastKnownLocation="Package1_1048.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="32100da6-b3c7-4f83-a80e-ead9f897c456"
+            name="CreateProperties"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="26cd05ff-6649-4b6e-a1e4-f34ef4015a1b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DCreateProperties OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="58730c36-6de8-44b0-bd3d-8ef58bed727e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a474168-8c94-4f35-99c7-eadb9f711b11">
+                    <propertyInstance
+                      Id="e79a608c-d23b-4be9-aa42-2b30c60695e1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efdefa2a-2a0b-41df-a91f-830061a46c95">
+                    <propertyInstance
+                      Id="51f3846f-e9d2-4612-b833-3c2ad66b9466"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdc2532a-5d4b-4785-ad03-3bdad186ea9a">
+                    <propertyInstance
+                      Id="c72bfcf4-3126-46ce-b4f1-de14bfcd8593"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6f5777c-11ed-43b9-9df3-4beecd4173b2">
+                    <propertyInstance
+                      Id="56db8200-ca9f-45d3-96e4-3b346f33d9aa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="373a8274-2730-41cf-9180-7ee5581f054d">
+                    <propertyInstance
+                      Id="c69d4245-cb75-45ec-9997-bfae143ae58d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec7b5356-a1f7-4c67-a65c-c1de306cbf47">
+                    <propertyInstance
+                      Id="161b441a-5b28-4cb7-b6dc-c3fcb1b6c79f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f7e64b8f-5296-4612-8048-f7b0532350d8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3f0475af-7680-466f-b34f-3180be2dcc7b"
+                      LastKnownName="AuthenticationProperties"
+                      LastKnownLocation="Package11_1047.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3917a7e0-da29-4c3f-baa0-8e8cfe8fbad0"
+                  name="userName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0e7f01d0-ade0-4d15-9872-068428b4f80c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FF:%2Fproject%2FHomedecor%2Ftest%2Ftest%2Fbin%2Ftest.dll Namespace%3Dtest.Providers Type%3DApplicationOAuthProvider Member%3D(Name%3DCreateProperties OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DuserName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject3.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
