@@ -33,6 +33,7 @@
     <DocumentationFile>bin\test.XML</DocumentationFile>
     <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
     <NoWarn>1591</NoWarn>
+    <LangVersion>5</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -329,13 +330,8 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
-    <None Include="Properties\PublishProfiles\azure.pubxml" />
-    <None Include="Properties\PublishProfiles\file.pubxml" />
-    <None Include="Properties\PublishProfiles\FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\joinevent - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\joinevent - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\machineapi - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\machineapi - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\joinevents - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\joinevents - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

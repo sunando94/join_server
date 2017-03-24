@@ -176,7 +176,7 @@ namespace test.Controllers
 
                 await db.SaveChangesAsync();
             }
-            catch (Exception ex) { throw; }
+            catch (Exception ex) { throw;  }
 
           return CreatedAtRoute("GetUserByID", new { profileid = newUser.profileid }, newUser);
         }
